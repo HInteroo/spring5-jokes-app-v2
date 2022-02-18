@@ -7,7 +7,7 @@ public class ChuckNorrisServiceImpl implements ChuckNorris {
 
     public ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public ChuckNorrisServiceImpl() { 
+    public ChuckNorrisServiceImpl() {
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
     }
 

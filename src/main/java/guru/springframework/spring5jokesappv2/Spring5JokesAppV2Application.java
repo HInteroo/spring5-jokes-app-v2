@@ -8,12 +8,6 @@ import org.springframework.context.ApplicationContext;
 @SpringBootApplication
 public class Spring5JokesAppV2Application {
 
-	public static void main(String[] args) {
-
-		ApplicationContext ctx = SpringApplication.run(Spring5JokesAppV2Application.class, args);
-
-		JokesController jokesController = (JokesController) ctx.getBean("jokesController");
-		System.out.println(jokesController.Quote());
-	}
+	public static void main(String[] args) {SpringApplication.run(Spring5JokesAppV2Application.class, args);}
 
 }
