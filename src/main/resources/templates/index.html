@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Spring Framework Guru</title>
+</head>
+<body>
+<h1>Chuck Norris Joke</h1>
+
+<table>
+    <tr>
+        <th>Chuck Norris Joke of the Day</th>
+    </tr>
+    <tr th:each="joke : ${joke}">
+        <td th:text="${joke}"></td>
+    </tr>
+</table>
+
+</body>
+</html>
